@@ -1,0 +1,6 @@
+1. What all factors account for the tracking error of the constructed portfolios? 
+A) The number of stocks in portfolio. Also the amount of volatility a selected stock represents.
+2. What is the relationship between tracking error and portfolio sample size? 
+A) It is a inverse relationship the higher the number of stocks in portfolio the lower is the tracking error. 
+3. What might be the most optimal way to decrease tracking error without having to construct a full portfolio matching the entire index 
+A) Identify the most volatile stock and add them to portfolio.

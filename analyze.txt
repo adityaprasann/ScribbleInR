@@ -1,0 +1,14 @@
+1. How wide a variance is noticeable in the final year-end price of the stock for the 5 separate trials performed through steps IV and V? Analyze and draw your conclusions. 
+2. Would the variance have been higher if ε was assigned purely on a random basis from an arbitrary distribution?
+
+The variance for one of the run is 
+"Variance list is"
+30.70301
+3.832749
+22.90795
+5.404438
+130.4562
+
+The variance is stock price depends on the random epsilon picked. Over multiple runs one run always show a close end price to start price but at least one of the run show quit a varied end price compared with start price.
+
+As the epsilon is generated random it could be different for different run. However as obvious from above the prices in each run show a wide range of value and a high variance with respect to each other.

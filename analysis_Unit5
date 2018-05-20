@@ -1,0 +1,28 @@
+
+1. For how many stocks was the null hypothesis accepted.
+
+The p-value calculated for stocks as per program written is as follows -
+
+SAND500 0.2278799
+PEP     0.3614993
+JPM     0.07672435
+BLK     0.06932267
+PFE     0.3462411
+C       0.2392785
+MCO     0.01390039
+GOOGL   0.4557825
+WHR     0.6842374
+NFLX    0.02573569
+
+Claim - Mean daily stock return is zero.
+Null hyphothesis 	  - H(0) - mean(stock return) = 0
+Altrenate hyphothesis - H(A) - mean(stock return) not equal 0
+As alpha has not be mentioned in problem statement assuming alpha to be 0.05. Accepting the null hypothesis in cases where alpha 
+is less than p-value. For the following two stocks null hypothesis is accepted - MCO, NFLX.
+
+
+2. Given that you drew the stocks randomly from the index constituents, is it possible to extrapolate the behavior of the index (in terms of the null hypothesis) from the average results obtained from analyzing the stocks?
+
+The sample size studided here(10 stocks) falls way below the limit of 30 for ensuring almost normal distribution. Hence it might
+not be ideal to extrapolate the results before running more simulations.
+An important factor to consider is  - Stock prices cannot be negative, consequently, the differences between stock prices are limited below by what we paid for them. For stock prices one can use the LogNormal distribution. 
